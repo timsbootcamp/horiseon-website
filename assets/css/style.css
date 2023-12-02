@@ -1,13 +1,38 @@
+/* Global Related CSS Styling
+---------------------------------------------------- */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
-body {
-    background-color: #d9dcd6;
+/* a is an anchor tag ie. hyperlink element */
+a {
+    color: #ffffff;
+    text-decoration: none;
 }
 
+/* p tag is Paragraph */
+p {
+    font-size: 16px;
+}
+
+/* float CSS property places an element on the left or right side of its container - in this case to the left */
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+/* float CSS property places an element on the left or right side of its container - in this case to the right */
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+
+
+/* Header Related CSS Styling
+---------------------------------------------------- */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -18,12 +43,14 @@ body {
 .header h1 {
     display: inline-block;
     font-size: 48px;
+    
+    .seo {
+        color: #d9dcd6;
+    }
 }
 
-.header h1 .seo {
-    color: #d9dcd6;
-}
 
+/* Header Navigational Styling */
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -41,13 +68,11 @@ body {
     margin-left: 25px;
 }
 
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
 
-p {
-    font-size: 16px;
+/* Body Element Styling
+---------------------------------------------------- */
+body {
+    background-color: #d9dcd6;
 }
 
 .body-image {
@@ -59,22 +84,38 @@ p {
     background-position: center;
 }
 
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
 
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
 
+/* Main Content Related CSS Styling
+---------------------------------------------------- */
 .main-content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+.main-search-engine-optimization, .main-online-reputation-management, .main-social-media-marketing  {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.main-search-engine-optimization img, .main-online-reputation-management img, .main-social-media-marketing img {
+    max-height: 200px;
+}
+
+.main-search-engine-optimization h2, .main-online-reputation-management h2, .main-social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+
+
+/* Benefits Related CSS Styling
+---------------------------------------------------- */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -86,108 +127,25 @@ p {
     background-color: #2589bd;
 }
 
-.benefits-lead {
+.benefits-lead, .benefits-brand, .benefits-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefits-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefits-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefits-lead h3 {
+.benefits-lead h3, .benefits-brand h3, .benefits-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefits-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefits-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefits-lead img {
+.benefits-lead img, .benefits-brand img, .benefits-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.benefits-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
 
-.benefits-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.main-search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.main-online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.main-social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.main-search-engine-optimization img {
-    max-height: 200px;
-}
-
-.main-online-reputation-management img {
-    max-height: 200px;
-}
-
-.main-social-media-marketing img {
-    max-height: 200px;
-}
-
-.main-search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.main-online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.main-social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
+/* Footer Related CSS Styling
+---------------------------------------------------- */
 footer {
     padding: 30px;
     clear: both;
