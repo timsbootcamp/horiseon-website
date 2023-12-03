@@ -136,6 +136,12 @@ The source code can be cloned from the above link.
 The website has been enhanced for accessibility for individuals with disabilities (better readability) and also for businesses too (higher rank in search engines).
 Source code has been refactored so it is readable, reusable, maintainable, and faster to load HTML and CSS.
 
+Link to my GitHub Repository:
+https://github.com/timsbootcamp/horiseon-website
+
+Link to deployed site of my Horiseon Website:
+https://timsbootcamp.github.io/horiseon-website/
+
 ![screenshot](https://github.com/timsbootcamp/horiseon-website/assets/150256773/2f060bfc-aa69-4834-b2cd-eb57baee55bb)
 
 
